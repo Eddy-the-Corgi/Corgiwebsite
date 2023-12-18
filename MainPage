@@ -4,39 +4,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Page Title</title>
+    <title>CorgiWebsite</title>
     <!-- Additional meta tags, stylesheets, or scripts can be included here -->
 </head>
 
 <body>
     <header>
-        <h1>Your Website Name</h1>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
+        <h1>CorgiWebsite</h1>
     </header>
 
     <section id="home">
-        <h2>Welcome to Your Website!</h2>
-        <p>This is the home section of your website.</p>
+        <h2>Hello everyone!</h2>
+        <p>Hello! I am Alistair, a Year 1 Undergraduate student at the National University of Singapore (NUS), and am looking to gain industry experience. I offer great discipline, problem-solving skills, and teamwork capabilities, which will definitely allow me to quickly learn the ropes of the job.</p>
     </section>
 
     <section id="about">
-        <h2>About Us</h2>
-        <p>Write something interesting about yourself or your project here.</p>
+        <h2>Fun Facts About Me</h2>
+        <p>I'm a sprite addict, Examplify victim, and a wannabe corgi.</p>
     </section>
 
     <section id="contact">
-        <h2>Contact Us</h2>
-        <p>Provide contact information or a form for visitors to reach you.</p>
+        <h2>Contact Me</h2>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/alistair-tan-6b151728a/">https://www.linkedin.com/in/alistair-tan-6b151728a/</a></p>
     </section>
 
     <footer>
-        <p>&copy; 2023 Your Website Name. All rights reserved.EDIT</p>
+        <p>&copy; 2023 CorgiWebsite. All rights reserved.</p>
     </footer>
 </body>
 
