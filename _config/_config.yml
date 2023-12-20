@@ -28,7 +28,8 @@ twitter_username: None
 github_username:  Eddy-the-Corgi
 
 # Build settings
-theme: jekyll-theme-hyde
+#theme: jekyll-theme-hyde
+remote_theme: hyde
 plugins:
   - jekyll-feed
   - jekyll-sitemap
