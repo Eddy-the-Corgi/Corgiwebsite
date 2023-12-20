@@ -18,8 +18,6 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-
-
 title: Corgiwebsite
 email: e1249138@u.nus.edu
 description: >- # this means to ignore newlines until "baseurl:"
@@ -30,7 +28,7 @@ twitter_username: None
 github_username:  Eddy-the-Corgi
 
 # Build settings
-theme: hyde
+theme: jekyll-theme-hyde
 plugins:
   - jekyll-feed
   - jekyll-sitemap
