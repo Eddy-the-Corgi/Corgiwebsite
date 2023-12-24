@@ -29,7 +29,7 @@ github_username:  Eddy-the-Corgi
 
 # Build settings
 #theme: jekyll-theme-minimal
-remote_theme: "https://github.com/poole/hyde"
+remote_theme: poole/hyde
 #plugins:
 #  - jekyll-feed
 #  - jekyll-sitemap
