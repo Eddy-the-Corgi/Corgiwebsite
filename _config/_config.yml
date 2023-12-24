@@ -22,7 +22,7 @@ title: Corgiwebsite
 email: e1249138@u.nus.edu
 description: >- # this means to ignore newlines until "baseurl:"
 Hello! I am Alistair, a Year 1 Undergraduate student at the National University of Singapore (NUS), and am looking to gain industry experience. I offer great discipline, problem-solving skills, and teamwork capabilities, which will definitely allow me to quickly learn the ropes of the job.
-baseurl: "/Corgiwebsite" # the subpath of your site, e.g. /blog
+baseurl: "/Corgiwebsite"
 url: "https://eddy-the-corgi.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: None
 github_username:  Eddy-the-Corgi
@@ -32,7 +32,7 @@ github_username:  Eddy-the-Corgi
 remote_theme: "poole/hyde"
 plugins:
   - jekyll-feed
-  - jekyll-include-cache
+  - jekyll-include-plugin
 #  - jekyll-sitemap
 
 # Exclude from processing.
