@@ -6,8 +6,11 @@
 
 body {
   font-family: 'Poppins', sans-serif;
-  display: flex;
   /* Change 'sans-serif' to a fallback font of your choice */
+}
+
+body.flex-layout {
+  display: flex;
 }
 
 .boxed-words {
