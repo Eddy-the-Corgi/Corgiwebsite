@@ -1,0 +1,10 @@
+.boxed-words {
+    border: 1px solid black;
+    display: inline-block;
+    padding: 5px;
+  }
+  
+.boxed-words span {
+    border: none; /* Remove any default border on individual words */
+    margin: 0 5px; /* Add spacing between words */
+  }
