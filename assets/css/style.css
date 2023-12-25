@@ -1,3 +1,14 @@
+@font-face {
+  font-family: 'Poppins';
+  src: url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+  /* Add additional font formats as needed */
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  /* Change 'sans-serif' to a fallback font of your choice */
+}
+
 .boxed-words {
     border: 1px solid black;
     display: inline-block;
