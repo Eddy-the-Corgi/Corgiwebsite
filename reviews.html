@@ -1,8 +1,3 @@
----
-layout: default
-title: Reviews
----
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,7 +6,13 @@ title: Reviews
     <link rel="stylesheet" href="/assets/css/style.css">
 </head>
 <body class="flex-layout">
-
+    <div id = "layout-info">
+      ---
+      layout: default
+      title: Reviews
+      ---
+    </div>
+    <div class="container">
     <div id="content">
       <section id="hss">
         <h2>HSS - Humanities and Social Sciences</h2>
@@ -33,7 +34,8 @@ title: Reviews
         <!-- Add more modules as needed -->
       </ul>
     </div>
-
+    </div>
+    
     <script>
       // Smooth scrolling for anchor links
       document.querySelectorAll('a[href^="#"]').forEach(anchor => {
