@@ -13,13 +13,15 @@ title: Reviews
 <body class="flex-layout">
     <div class="container">
     <div id="content">
-      <section id="hss">
-        <h2>HSS - Humanities and Social Sciences</h2>
+      <section id="hss1000">
+        <h2>HSS1000 Understanding Social Complexity</h2>
+        <div id="text-for-hss1000"></div>
         <!-- Content for HSS goes here -->
       </section>
   
-      <section id="hsa">
-        <h2>HSA - Health Sciences</h2>
+      <section id="hsa1000">
+        <h2>HSA1000 Asian Interconnections</h2>
+        <div id="text-for-hsa1000"></div>
         <!-- Content for HSA goes here -->
       </section>
       <!-- Add more sections as needed -->
@@ -28,8 +30,8 @@ title: Reviews
     <div id="sidebar">
       <h2>Modules</h2>
       <ul>
-        <li><a href="#hss">HSS</a></li>
-        <li><a href="#hsa">HSA</a></li>
+        <li><a href="#hss1000">HSS1000</a></li>
+        <li><a href="#hsa1000">HSA1000</a></li>
         <!-- Add more modules as needed -->
       </ul>
     </div>
@@ -46,6 +48,34 @@ title: Reviews
           });
         });
       });
+    
+      // Function to fetch and transfer sections
+      function fetchContent() {
+        const sections = [
+          { id: 'hss1000' },
+          { id: 'hsa1000' },
+          // Add more sections with their IDs here
+        ];
+    
+        const xhr = new XMLHttpRequest();
+        xhr.open('GET', 'text-for-reviews.html');
+        xhr.onload = function() {
+          if (xhr.status === 200) {
+            const parsedResponse = new DOMParser().parseFromString(xhr.responseText, 'text/html');
+            sections.forEach(section => {
+              const content = parsedResponse.querySelector(`#${section.id}`);
+              const contentDiv = document.querySelector(`#text-for-${section.id}`);
+              contentDiv.appendChild(content);
+            });
+          } else {
+            console.error('Failed to fetch content:', xhr.statusText);
+          }
+        };
+        xhr.send();
+      }
+    
+      // Call the function when the page loads
+      fetchContent();
     </script>
     
 </body>

@@ -1,5 +1,7 @@
 - name: Home
   link: /Corgiwebsite
+- name: Corgis
+  link: /Corgiwebsite/corgis.html
 - name: Books
   link: /Corgiwebsite/books.html
 - name: Reviews

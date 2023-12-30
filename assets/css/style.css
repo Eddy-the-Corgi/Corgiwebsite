@@ -79,3 +79,15 @@ body.flex-layout {
 .layout-info {
   margin-bottom: 10px; /* Adjust the margin as needed */
 }
+
+.first-row,
+.second-row {
+  display: flex; /* Display images in a row */
+  justify-content: center; /* Center images within the row */
+  margin: 0 auto; /* Center the entire row horizontally */
+}
+
+.first-row img,
+.second-row img {
+  margin-right: 10px; /* Adjust as needed */
+}
