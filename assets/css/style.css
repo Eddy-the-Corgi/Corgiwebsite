@@ -91,3 +91,7 @@ body.flex-layout {
 .second-row img {
   margin-right: 10px; /* Adjust as needed */
 }
+
+#sidebar ul {
+  text-align: center; /* Center the list items horizontally */
+}

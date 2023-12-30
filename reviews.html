@@ -87,13 +87,25 @@ title: Reviews
           if (xhr.status === 200) {
             const parsedResponse = new DOMParser().parseFromString(xhr.responseText, 'text/html');
             sections.forEach(section => {
+              console.log("parsedResponse:", parsedResponse); // Inspect parsedResponse
+              console.log("section.id:", section.id); // Verify ID
               const content = parsedResponse.querySelector(`#${section.id}`);
+              console.log("content:", content); // Ensure content is found
               const contentDiv = document.querySelector(`#text-for-${section.id}`);
-              contentDiv.appendChild(content);
+              console.log("contentDiv:", contentDiv); // Ensure contentDiv is found
+              
+              if (content && contentDiv) {
+                contentDiv.appendChild(content);
+              } else {
+                console.error("Error: content or contentDiv is null for section", section.id);
+              }
             });
           } else {
             console.error('Failed to fetch content:', xhr.statusText);
           }
+        };
+        xhr.onerror = function() {
+          console.error('Network error:', xhr.statusText);
         };
         xhr.send();
       }
