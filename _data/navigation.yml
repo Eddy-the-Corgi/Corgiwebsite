@@ -1,6 +1,8 @@
 - name: Home
   link: /Corgiwebsite
 - name: Corgis
+  name: Ruby
+  link: /Corgiwebsite/ruby.html
   link: /Corgiwebsite/corgis.html
 - name: Books
   link: /Corgiwebsite/books.html
