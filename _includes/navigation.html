@@ -1,16 +1,7 @@
-<!--
-<nav>
-  {% for item in site.data.navigation %}
-    <a href="{{ item.link }}" {% if page.url == item.link %}style="color: red;"{% endif %}>
-      {{ item.name }}
-    </a>
-  {% endfor %}
-</nav>
--->
-
 <nav>
   {% for item in site.data.navigation %}
     <a href="{{ item.link }}" class="boxed-words" {% if page.url == item.link %}style="color: red;"{% endif %}>
-      <span>{{ item.name }}</span> </a>
+      <span>{{ item.name }}</span>
+    </a>
   {% endfor %}
 </nav>
