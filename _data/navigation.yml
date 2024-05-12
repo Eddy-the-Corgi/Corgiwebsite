@@ -6,7 +6,9 @@
   link: /Corgiwebsite/ruby.html
 - name: Books
   link: /Corgiwebsite/books.html
-- name: Skills
-  link: /Corgiwebsite/skills.html
+# - name: Skills
+#   link: /Corgiwebsite/skills.html
+- name: Blog
+  link: /Corgiwebsite/blog.html
 - name: Reviews
   link: /Corgiwebsite/reviews.html
