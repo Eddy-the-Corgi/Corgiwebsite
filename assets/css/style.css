@@ -29,6 +29,7 @@ body.flex-layout {
     margin: 0 5px; /* Add spacing between words */
 }
 
+/*gpt change 1*/
 #content {
   flex: 1;
   padding: 20px;
@@ -36,6 +37,7 @@ body.flex-layout {
   overflow-y: auto;
 }
 
+/*gpt change 2*/
 .container {
   display: flex;
   height: 100%;
