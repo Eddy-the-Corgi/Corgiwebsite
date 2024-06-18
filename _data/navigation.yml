@@ -1,14 +1,16 @@
 - name: Home
   link: /Corgiwebsite
-- name: Corgis
-  link: /Corgiwebsite/corgis.html
-- name: Ruby
-  link: /Corgiwebsite/ruby.html
+- name: Math
+  link: /Corgiwebsite/math.html
 - name: Books
   link: /Corgiwebsite/books.html
-- name: Skills
-  link: /Corgiwebsite/skills.html
+#- name: Skills
+#  link: /Corgiwebsite/skills.html
 - name: Blog
   link: /Corgiwebsite/blog.html
 - name: Reviews
   link: /Corgiwebsite/reviews.html
+- name: Corgis
+  link: /Corgiwebsite/corgis.html
+- name: Ruby
+  link: /Corgiwebsite/ruby.html
